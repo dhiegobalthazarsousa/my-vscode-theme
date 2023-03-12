@@ -1,0 +1,21 @@
+{
+  "name": "tatooine-theme-for-sw-fans",
+  "displayName": "tatooine-theme-for-sw-fans",
+  "description": "Theme for Star Wars fans - planet colors",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "tatooine-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tatooine-theme-color-theme.json"
+      }
+    ]
+  }
+}
